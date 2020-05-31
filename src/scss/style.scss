@@ -1,0 +1,14 @@
+@import "reset";
+@import "fonts";
+@import "mixins";
+@import "header";
+@import "main";
+@import "media";
+
+html {
+  @include regular;
+}
+
+body {
+  background: #f8f8f8;
+}
